@@ -16,6 +16,10 @@ listaMista.push(false);
 let cursos: string[] = ["JavaScript", "TypeScript", "C++"];
 let valores: number[] = [10, 100, 2026];
 
+// Outras formas de declarar um Array. Dessa forma o array pode conter strings e numbers
+// let numeros2: Array<number | string> = [20, "Rafael"];
+// let numeros3: (number | string)[] = [20, 30, "Catarino"];
+
 cursos.push("Arduino");
 // cursos.push(10); // Erro de compilação: O tipo 'number' não é atribuível ao tipo 'string'
 
